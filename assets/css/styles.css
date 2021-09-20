@@ -86,6 +86,7 @@
 html{
     --scroll-behavior: smooth;
     scroll-behavior: smooth;
+    font-family: "scroll-behavior: smooth", sans-serif;
 }
 
 body{
