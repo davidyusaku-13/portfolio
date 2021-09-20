@@ -80,10 +80,16 @@
     margin: 0;
 }
 
-html{
-    --scroll-behavior: smooth;
+.smooth-scroll {
     scroll-behavior: smooth;
-    font-family: "scroll-behavior: smooth", sans-serif;
+    /* Specify in custom property so polyfill can parse it */
+    --scroll-behavior: smooth;
+    /* Additionally specified in custom font-family for IE and other old browsers */
+    font-family: 'scroll-behavior:smooth';
+}
+
+html{
+    scroll-behavior: smooth;
 }
 
 body{

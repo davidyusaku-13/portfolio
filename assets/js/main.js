@@ -1,7 +1,3 @@
-// Smooth Scroll Polyfill
-import smoothscrollPolyfill from 'smoothscroll-polyfill';
-import smoothscrollAnchorPolyfill from 'smoothscroll-anchor-polyfill';
-
 /*==================== MENU SHOW Y HIDDEN ====================*/
 const navMenu = document.getElementById('nav-menu'),
 	  navToggle = document.getElementById('nav-toggle'),
